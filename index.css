@@ -1,11 +1,52 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container div {
-    height: 2rem;
-    width: 2rem;
-    border: 2px solid red;
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.row1,
+.row2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.container div div {
+  height: 8rem;
+  width: 8rem;
+  border: 2px solid red;
+}
+
+#square1 {
+    background-color: wheat;
+}
+
+#square2 {
+    background-color: rebeccapurple;
+}
+
+#square3 {
+    background-color: tomato;
+}
+
+#square4 {
+    background-color: lightgrey;
+}
+
+#square5 {
+    background-color: steelblue;
+}
+
+#square6 {
+    background-color: hotpink;
 }
